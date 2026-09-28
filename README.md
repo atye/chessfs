@@ -1,6 +1,6 @@
 # chessfs
 
-A FUSE filesystem that exposes your Lichess correspondence games as normal files and directories on your local machine.
+A FUSE filesystem that manages your Lichess correspondence games as normal files and directories on your local machine.
 
 ## Running
 
