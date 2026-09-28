@@ -29,7 +29,6 @@ type OAPICODEGEN struct {
 	ResponseClient *oapicodegen.ClientWithResponses
 	username       string
 	pgnCache       sync.Map
-	uciMovesCache  sync.Map
 }
 
 func (o *OAPICODEGEN) GetUsername(ctx context.Context) (string, error) {
