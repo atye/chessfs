@@ -53,7 +53,7 @@ func (g *CorrespondenceDir) Lookup(
 			chess:   g.chess,
 			log:     g.log,
 			action:  "challenge-random",
-			content: []byte(fileContent[name]),
+			content: challengeRandomFileContent,
 		}
 		return g.NewInode(
 			ctx,
@@ -67,7 +67,7 @@ func (g *CorrespondenceDir) Lookup(
 			chess:   g.chess,
 			log:     g.log,
 			action:  "challenge-ai",
-			content: fileContent[name],
+			content: challengeAIFileContent,
 		}
 		return g.NewInode(
 			ctx,

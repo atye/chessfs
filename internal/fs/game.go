@@ -14,14 +14,14 @@ import (
 	"github.com/hanwen/go-fuse/v2/fuse"
 )
 
-var actionFiles = map[string]struct{}{
-	"move":          {},
-	"resign":        {},
-	"draw":          {},
-	"takeback":      {},
-	"abort":         {},
-	"claim-victory": {},
-	"claim-draw":    {},
+var actionFiles = map[string][]byte{
+	"move":          moveFileContent,
+	"resign":        resignFileContent,
+	"draw":          drawFileContent,
+	"takeback":      takebackFileContent,
+	"abort":         abortFileContent,
+	"claim-victory": claimVictoryFileContent,
+	"claim-draw":    claimDrawFileContent,
 }
 
 type GameDir struct {
@@ -49,14 +49,14 @@ func (g *GameDir) Readdir(
 }
 
 func (g *GameDir) Lookup(ctx context.Context, name string, out *fuse.EntryOut) (*fs.Inode, syscall.Errno) {
-	_, ok := actionFiles[name]
+	content, ok := actionFiles[name]
 	if ok {
 		file := &ActionFile{
 			chess:   g.chess,
 			log:     g.log,
 			gameID:  g.gameID,
 			action:  name,
-			content: fileContent[name],
+			content: content,
 		}
 		return g.NewInode(
 			ctx,
