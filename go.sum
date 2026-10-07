@@ -3,6 +3,8 @@ github.com/apapsch/go-jsonmerge/v2 v2.0.0 h1:axGnT1gRIfimI7gJifB699GoE/oq+F2MU7D
 github.com/apapsch/go-jsonmerge/v2 v2.0.0/go.mod h1:lvDnEdqiQrp0O42VQGgmlKpxL1AP2+08jFMw88y4klk=
 github.com/atye/golichess/oapi-codegen v0.0.0-20260924112415-394d22afa149 h1:40FPxtykG4h7CoAi2gEOR7Yz7HTpXQ+SGVCGjpfneP8=
 github.com/atye/golichess/oapi-codegen v0.0.0-20260924112415-394d22afa149/go.mod h1:tcWI032N1KDn8NT7O7g8+CsWV5GIcoi6nNKgON2dEcE=
+github.com/atye/golichess/oapi-codegen v0.0.0-20261005152252-197c9506b21b h1:bEhIMoOkNxJr2iXpGyjExvS8ueE4+SY+Nz9OATq7fJ8=
+github.com/atye/golichess/oapi-codegen v0.0.0-20261005152252-197c9506b21b/go.mod h1:tcWI032N1KDn8NT7O7g8+CsWV5GIcoi6nNKgON2dEcE=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1 h1:HwpRHbFMcZLEVr42D4p7XBqjyuxQH5SMiErDT4WkJ2k=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1/go.mod h1:uYgXzlJ7ZpABp8OJ+exZzJJhRNQ2ASbcXHWsFqH8hp8=
 github.com/bmatcuk/doublestar v1.1.1/go.mod h1:UD6OnuiIn0yFxxA2le/rnRU1G4RaI4UvFv1sNto9p6w=

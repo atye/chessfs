@@ -3,7 +3,7 @@ module github.com/atye/chessfs
 go 1.27.1
 
 require (
-	github.com/atye/golichess/oapi-codegen v0.0.0-20260924112415-394d22afa149
+	github.com/atye/golichess/oapi-codegen v0.0.0-20261005152252-197c9506b21b
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/corentings/chess/v3 v3.0.0-beta.4
 	github.com/hanwen/go-fuse/v2 v2.11.0
