@@ -6,7 +6,7 @@ require (
 	github.com/atye/golichess/oapi-codegen v0.0.0-20261005152252-197c9506b21b
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/corentings/chess/v3 v3.0.0-beta.4
-	github.com/hanwen/go-fuse/v2 v2.12.0
+	github.com/hanwen/go-fuse/v2 v2.12.1
 )
 
 require (
