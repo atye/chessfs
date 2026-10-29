@@ -5,7 +5,7 @@ go 1.27.1
 require (
 	github.com/atye/golichess/oapi-codegen v0.0.0-20261028142001-0677194a3531
 	github.com/charmbracelet/lipgloss v1.1.0
-	github.com/corentings/chess/v3 v3.0.0-beta.4
+	github.com/corentings/chess/v3 v3.0.0-beta.5
 	github.com/hanwen/go-fuse/v2 v2.12.1
 )
 
