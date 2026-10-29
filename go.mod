@@ -3,7 +3,7 @@ module github.com/atye/chessfs
 go 1.27.1
 
 require (
-	github.com/atye/golichess/oapi-codegen v0.0.0-20261005152252-197c9506b21b
+	github.com/atye/golichess/oapi-codegen v0.0.0-20261028142001-0677194a3531
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/corentings/chess/v3 v3.0.0-beta.4
 	github.com/hanwen/go-fuse/v2 v2.12.1
@@ -21,7 +21,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/muesli/termenv v0.16.0 // indirect
-	github.com/oapi-codegen/runtime v1.7.0 // indirect
+	github.com/oapi-codegen/runtime v1.8.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	golang.org/x/sys v0.39.0 // indirect
