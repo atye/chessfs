@@ -48,9 +48,15 @@ func drawTextBoard(uciMoves string, whitePerspective bool) (string, error) {
 	}
 
 	if whitePerspective {
-		return game.Position().Board().Draw2(chess.White, env.GetDarkMode()), nil
+		return game.Position().Board().DrawWith(chess.DrawOptions{
+			Perspective: chess.White,
+			DarkMode:    env.GetDarkMode(),
+		}), nil
 	}
-	return game.Position().Board().Draw2(chess.Black, env.GetDarkMode()), nil
+	return game.Position().Board().DrawWith(chess.DrawOptions{
+		Perspective: chess.Black,
+		DarkMode:    env.GetDarkMode(),
+	}), nil
 }
 
 func drawStyledBoard(uciMoves string, whitePerspective bool) (string, error) {
